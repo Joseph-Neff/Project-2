@@ -36,8 +36,3 @@ yearly_rates.year, yearly_rates.service_category, yearly_rates.sex, yearly_rates
 FROM one_year 
 FULL OUTER JOIN yearly_rates
 ON one_year.sex = yearly_rates.sex;
-
-SELECT table1.column1, table1.column2, table2.column1, ....
-FROM table1 
-FULL JOIN table2
-ON table1.matching_column = table2.matching_column;
